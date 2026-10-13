@@ -340,6 +340,7 @@ Flow:
 Result:
   "Created a parking lot with 10 usable slots"
 
+
 Step 2: Park a Car
 User Input:
   park KA-01-HH-1234 White
@@ -348,6 +349,7 @@ Flow:
 Result:
   "Allocated slot: (2, 1)"
 
+
 Step 3: Free a Slot
 User Input:
   leave 2 1
@@ -355,6 +357,7 @@ Flow:
   main.py ──> processor.py ──> manager.py (heappush slot (2, 1) back into heap)
 Result:
   "Slot (2, 1) is free"
+
 
 Step 4: Check Status
 User Input:
